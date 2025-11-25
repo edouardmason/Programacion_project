@@ -38,8 +38,6 @@ Exports<-rename(Exports,Value=XTEXVA01ESQ664S)
 Imports<-rename(Imports, Value=XTIMVA01ESQ667S)
 International_Visitors<-rename(International_Visitors,Value=route)
 International_Visitors<-rename(International_Visitors, observation_date=Access)
-Visitors_Expenditure<-rename(Visitors_Expenditure, Value= Expenses)
-Visitors_Expenditure<-rename(Visitors_Expenditure, observation_date=data)
 
 #We adjust monthly data to quarterly by averaging
 
