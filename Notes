@@ -1,0 +1,12 @@
+7 tables with statistical data: mean, median, Q1, Q2, Q3, sd. 
+Or we can also do all in one table. 
+With 1 row for each indicator and columns for each statistical metric.  
+
+7 graphs of evolution (basically line charts).
+7 histograms
+1 heatmap with all indicators
+
+If we have some variables that have a different time scale, we do two heatmaps. 
+7 box plots with comments. 
+
+Extra scatter plot with the results of the predictions.
