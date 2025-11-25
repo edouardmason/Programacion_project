@@ -7,14 +7,13 @@
 #                macroeconomic indicators.
 ############################################################
 #loading raw data in R
-Exports<-read.csv("https://raw.githubusercontent.com/edouardmason/Programacion_project/refs/heads/main/Exports.csv")
-Imports<-read.csv("https://raw.githubusercontent.com/edouardmason/Programacion_project/refs/heads/main/Imports.csv")
-Industrial_Production<-read.csv("https://raw.githubusercontent.com/edouardmason/Programacion_project/refs/heads/main/Industrial_Production.csv")
-International_Visitors<-read.csv("https://raw.githubusercontent.com/edouardmason/Programacion_project/refs/heads/main/International_visitors.csv",sep=";")
-Visitors_Expenditure<-read.csv("https://raw.githubusercontent.com/edouardmason/Programacion_project/refs/heads/main/Tourist_Expenditure.csv",sep="")
-Real_GDP <- read.csv("https://raw.githubusercontent.com/edouardmason/Programacion_project/refs/heads/main/rgdp_spain.csv")
-CPI <- read.csv("https://raw.githubusercontent.com/edouardmason/Programacion_project/refs/heads/main/cpi.csv")
-unemp_df <- read.csv("https://raw.githubusercontent.com/edouardmason/Programacion_project/refs/heads/main/unemprate.csv")
+Exports<-read.csv("https://raw.githubusercontent.com/edouardmason/Programacion_project/refs/heads/main/data/Exports.csv")
+Imports<-read.csv("https://raw.githubusercontent.com/edouardmason/Programacion_project/refs/heads/main/data/Imports.csv")
+Industrial_Production<-read.csv("https://raw.githubusercontent.com/edouardmason/Programacion_project/refs/heads/main/data/Industrial_Production.csv")
+International_Visitors<-read.csv("https://raw.githubusercontent.com/edouardmason/Programacion_project/refs/heads/main/data/International_visitors.csv",sep=";")
+Real_GDP <- read.csv("https://raw.githubusercontent.com/edouardmason/Programacion_project/refs/heads/main/data/rgdp_spain.csv")
+CPI <- read.csv("https://raw.githubusercontent.com/edouardmason/Programacion_project/refs/heads/main/data/cpi.csv")
+unemp_df <- read.csv("https://raw.githubusercontent.com/edouardmason/Programacion_project/refs/heads/main/data/unemprate.csv")
 
 
 #We start to clean data by erasing obsolete columns
